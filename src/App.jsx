@@ -1,10 +1,16 @@
 import "./App.css";
 
+import Header from "./components/Header";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <>
-      <h1>Pizza Menu</h1>
-    </>
+    <div className="container">
+      <Header />
+      <Menu />
+      <Footer />
+    </div>
   );
 }
 
