@@ -1,15 +1,13 @@
-const Pizza = (props) => {
-  console.log(props);
+const Pizza = ({ image, name, ingredients, price, soldOut }) => {
   return (
-    <div className="pizza">
-      <img src={props.pizzaObj.image} alt={props.pizzaObj.name} />
+    <li className="pizza">
+      <img src={image} alt={name} />
       <div>
-        <h3>{props.pizzaObj.name}</h3>
-        <p>{props.pizzaObj.ingredients}</p>
-        <span>{props.pizzaObj.price}</span>
-        <p>{props.pizzaObj.soldOut}</p>
+        <h3>{name}</h3>
+        <p>{ingredients}</p>
+        <span>{price}</span>
       </div>
-    </div>
+    </li>
   );
 };
 
