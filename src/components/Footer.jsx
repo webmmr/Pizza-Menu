@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>We are currently open. Visit Us or Order Online.</p>
+      <p>We are open till 10pm. Come visit us or Order online.</p>
     </footer>
   );
 };
