@@ -1,5 +1,7 @@
 /* eslint-env node */
 
+eslint-disable react/prop-types 
+
 module.exports = {
   env: { browser: true, es2020: true },
   extends: [

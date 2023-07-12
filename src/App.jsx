@@ -5,11 +5,14 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 
 function App() {
+  const openHour = 11;
+  const closeHour = 21;
+
   return (
     <div className="container">
       <Header />
       <Menu />
-      <Footer />
+      <Footer openHour={openHour} closeHour={closeHour} />
     </div>
   );
 }
